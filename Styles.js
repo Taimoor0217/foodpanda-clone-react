@@ -3,7 +3,7 @@ const theme_color = "#009936"
 export default styles = StyleSheet.create({
     searchbarholder :{
         padding : 10,
-        elevation : 3,
+        elevation : 2,
         borderColor:'#000', 
     },
     search :{
@@ -16,7 +16,7 @@ export default styles = StyleSheet.create({
     },
     restaurant:{
         marginTop : 25,
-        elevation : 3,
+        elevation : 2,
         padding : 15,
         borderColor:'#000',
     },
@@ -27,6 +27,20 @@ export default styles = StyleSheet.create({
     },
     restaurantscontainer :{
         display : "flex",
+    },
+    restaurantdescription :{
+        marginTop : 20
+    },
+    restaurantname :{
+        fontSize : 21,
+        fontWeight : "bold",
+    },
+    restaurantspecs :{
+        color : "#000",
+        marginTop : 4
+    },
+    restaurantprices :{
+        color : theme_color
     }
 });
   

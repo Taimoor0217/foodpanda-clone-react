@@ -20,6 +20,17 @@ export default class extends Component{
                     borderRadius = {2}
                     >
                     </ImageBackground>
+                    <View style={Styles.restaurantdescription}>
+                        <Text style = {Styles.restaurantname}>
+                            McDonalds - DHA Phase 5
+                        </Text>
+                        <Text style ={Styles.restaurantspecs}>
+                            Fast Food, Chicken, Fried Chicken, Pizza, Steaks, Burgers
+                        </Text>
+                        <Text style ={Styles.restaurantprices}>
+                            <Text style = {{fontSize : 14, fontWeight : "bold"}}>Rs</Text> 49 minimum <Text style = {{fontSize : 20, fontWeight : "bold"}}>|</Text> Free Delivery
+                        </Text>
+                    </View>
             </View>
         )
     }
