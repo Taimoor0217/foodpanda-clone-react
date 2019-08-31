@@ -21,11 +21,11 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import SearchBar from './Components/SearchBar'
+import Home from './Components/home'
 const App = () => {
   return (
     <View>
-        <SearchBar/>
+        <Home/>
     </View>
   );
 };
