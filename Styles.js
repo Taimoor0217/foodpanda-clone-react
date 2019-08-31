@@ -12,6 +12,19 @@ export default styles = StyleSheet.create({
         textAlign : "center",
         shadowColor : "gray",
         shadowOpacity: 10,
+        
+    },
+    restaurantCard :{
+            width : "95%",
+            height : 200,
+            marginTop :25,
+            marginLeft :5,
+            marginRight :5,
+            alignSelf : "center",
+            // backgroundColor : "red"
+    },
+    restaurantscontainer :{
+        display : "flex",
     }
 });
   
