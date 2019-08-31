@@ -12,7 +12,6 @@ export default class home extends Component{
         return(
             <View>
                 <SearchBar/>
-                <Text>Featured Restaurants</Text>
                 <ScrollView style = {Styles.restaurantscontainer}>
                     <RestaurantCard/>
                     <RestaurantCard/>

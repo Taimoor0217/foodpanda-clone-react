@@ -2,26 +2,28 @@ import {StyleSheet} from 'react-native'
 const theme_color = "#009936"
 export default styles = StyleSheet.create({
     searchbarholder :{
-        padding : 35
+        padding : 10,
+        elevation : 3,
+        borderColor:'#000', 
     },
     search :{
         display: "flex",
         height: 40, 
-        borderColor: theme_color,      
-        borderWidth: 1,
         textAlign : "center",
         shadowColor : "gray",
         shadowOpacity: 10,
         
     },
+    restaurant:{
+        marginTop : 25,
+        elevation : 3,
+        padding : 15,
+        borderColor:'#000',
+    },
     restaurantCard :{
-            width : "95%",
+            width : "100%",
             height : 200,
-            marginTop :25,
-            marginLeft :5,
-            marginRight :5,
             alignSelf : "center",
-            // backgroundColor : "red"
     },
     restaurantscontainer :{
         display : "flex",
