@@ -13,6 +13,7 @@ export default class home extends Component{
             <View>
                 <SearchBar/>
                 <ScrollView style = {Styles.restaurantscontainer}>
+                    <Text style = {Styles.heading}>Featured Restaurants</Text>
                     <RestaurantCard/>
                     <RestaurantCard/>
                     <RestaurantCard/>

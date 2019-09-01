@@ -41,6 +41,13 @@ export default styles = StyleSheet.create({
     },
     restaurantprices :{
         color : theme_color
+    },
+    heading : {
+        paddingTop: 15,
+        textAlign: "center",
+        fontSize : 30,
+        fontWeight : "bold"
+
     }
 });
   
